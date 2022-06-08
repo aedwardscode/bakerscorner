@@ -256,7 +256,7 @@ footer {
 
     .container2 {
         width: 100%;
-        height: 310px;
+        height: auto;
     }
 
     .banner2 {
@@ -288,10 +288,11 @@ footer {
         display: flex;
         width: 100%;
         flex-direction: column;
+        padding-right: 30px;
     }
 
     .imgcontainer2 img {
-        width: 80%;
+        width: 75%;
     }
 
     figcaption {
@@ -371,6 +372,7 @@ footer {
         display: flex;
         width: 100%;
         flex-direction: column;
+        padding-right: 40px;
     }
 
     .imgcontainer2 img {
@@ -453,6 +455,7 @@ footer {
         display: flex;
         width: 100%;
         flex-direction: column;
+        padding-right: 40px;
     }
 
     .imgcontainer2 img {
@@ -491,6 +494,7 @@ footer {
 
     .banner2 {
         width: 89.5%;
+        padding-left: 30px;
     }
 
     .imgcontainter {
@@ -498,6 +502,7 @@ footer {
         height: auto;
         display: flex;
         flex-direction: column;
+        padding-left: 20px;
     }
 
     .imgcontainer2 {
@@ -505,7 +510,8 @@ footer {
         height: auto;
         display: flex;
         flex-direction: column;
-        background-size: cover;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .imgcontainer2 img {
@@ -518,6 +524,7 @@ footer {
 
     footer {
         width: 88%;
+        padding-left: 10px;
     }
 
     .navigation2 ul li {
@@ -537,6 +544,8 @@ footer {
 
     .banner2 {
         width: 89.5%;
+        padding-left: 40px;
+        padding-right: 20px;
     }
 
     .imgcontainter {
@@ -544,6 +553,7 @@ footer {
         height: auto;
         display: flex;
         flex-direction: column;
+        padding-left: 40px;
     }
 
     .imgcontainer2 {
@@ -552,6 +562,8 @@ footer {
         display: flex;
         flex-direction: column;
         background-size: cover;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .imgcontainer2 img {
@@ -577,8 +589,9 @@ footer {
     }
 
     .container2 {
-       width: 100%;
-       height: 500px;
+       width: 104%;
+       height: 310px;
+       background-size: cover;
     }
 
     .banner2 {
@@ -590,6 +603,8 @@ footer {
         height: auto;
         display: flex;
         flex-direction: column;
+        padding-right: 40px;
+        padding-left: 30px;
     }
 
     .imgcontainer2 {
@@ -604,13 +619,21 @@ footer {
         width: 88%;
     }
 
+    .imgcontainer3 {
+        padding-left: 15px;
+    }
+
     .quote3 {
         width: 100%;
+        padding-left: 20px;
     }
 
     footer {
         width: 88%;
         font-size: .8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .navigation2 ul li {
@@ -621,11 +644,13 @@ footer {
 @media only screen and (max-width: 280px) {
     header {
         width: 100%;
+        overflow-x: hidden;
     }
 
     .container2 {
-       width: 100%;
-       height: 250px;
+       width: 123%;
+       height: 200px;
+       overflow-x: hidden;
     }
 
     .banner2 {
@@ -656,16 +681,26 @@ footer {
 
     .quote3 {
         width: 100%;
-        margin-left: 0px;
+        padding-right: 10px;
     }
 
     footer {
         width: 85%;
         font-size: .8rem;
         justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .navigation2 ul li {
         text-align: center;
+    }
+
+    .container5 p {
+        text-align: center;
+    }
+
+    button {
+        font-size: .70rem;
     }
 }

@@ -257,6 +257,7 @@ footer {
     .container2 {
         width: 100%;
         height: auto;
+        overflow-x: hidden;
     }
 
     .banner2 {
@@ -401,7 +402,7 @@ footer {
 
 @media only screen and (max-width: 414px) {
     header {
-        width: 100%;
+        width: 414px;
     }
 
     .navigation ul {
@@ -453,9 +454,10 @@ footer {
 
     .imgcontainer2 {
         display: flex;
-        width: 100%;
+        width: 98%;
         flex-direction: column;
-        padding-right: 40px;
+        padding-left: 0px;
+        padding-right: 10px;
     }
 
     .imgcontainer2 img {
@@ -476,7 +478,8 @@ footer {
     }
 
     footer {
-        font-size: .80rem;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
@@ -632,7 +635,7 @@ footer {
         width: 88%;
         font-size: .8rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -693,10 +696,6 @@ footer {
     }
 
     .navigation2 ul li {
-        text-align: center;
-    }
-
-    .container5 p {
         text-align: center;
     }
 

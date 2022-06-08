@@ -1,0 +1,675 @@
+body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 100;
+    display: block;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(250, 113, 82);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 128px;
+    height: 128px;
+    margin-left: 10px;
+}
+
+.navigation {
+    margin-right: 15px;
+    margin-top: 27px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+}
+
+.navigation a:hover {
+    color: rgb(162, 241, 231);
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin-top: 128px;
+    background-image: url(./images/priscilla-du-preez-SU5jSHu1pK8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(162, 241, 231);
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px rgb(4, 3, 3);
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(162, 241, 231);
+}
+
+button:hover {
+    background-color: rgb(250, 113, 82);
+    color:rgb(245, 239, 239);
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    color:rgb(250, 113, 82);
+    text-shadow: 2px 2px rgb(162, 241, 231);
+    font-size: 2rem;
+}
+
+.banner2 p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.banner2 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.imgcontainter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgcontainter a {
+    color: rgb(250, 113, 82);
+}
+
+.imgcontainter a:hover {
+    color: rgb(162, 241, 231);
+    text-shadow: 1px 1px rgb(250, 113, 82);
+}
+
+.imgcontainer2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 90px;
+    background-color: rgb(162, 241, 231);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.imgcontainer2 a {
+    color: rgb(250, 113, 82);
+}
+
+.imgcontainer2 a:hover {
+    color:rgb(205, 236, 229);
+    text-shadow: 2px 2px rgb(250, 113, 82);
+}
+
+.imgcontainer3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 90px;
+    justify-content: center;
+}
+
+.imgcontainer3 a {
+    color:rgb(250, 113, 82);
+}
+
+.imgcontainer3 a:hover {
+    color:rgb(162, 241, 231);
+    text-shadow: 1px 1px rgb(250, 113, 82);
+}
+
+.img2 {
+    width: 600px;
+    height: auto;
+}
+
+.banner2 .quote3 {
+    background-color: rgb(250, 113, 82);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: rgb(162, 241, 231);
+    text-shadow: none;
+}
+
+.container4 {
+    display: flex;
+    width: 50%;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navigation2 ul li {
+    margin-right: 30px;
+}
+
+.navigation2 a {
+    text-decoration: none;
+    color: rgb(56, 53, 53);
+}
+
+.navigation2 a:hover {
+    color: rgb(250, 113, 82);
+    background-color: rgb(162, 241, 231);
+    padding: 5px;
+}
+
+.container5 {
+    margin-right: 17px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 360px) {
+    header {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .navigation ul li {
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .container2 {
+        width: 110%;
+        height: 310px;
+    }
+
+    .banner2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner2 p {
+        font-size: 1.25rem;
+    }
+
+    .imgcontainter {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .banner2 {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imgcontainer2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 img {
+        width: 80%;
+    }
+
+    figcaption {
+        font-size: .75rem;
+    }
+
+    .container4 ul li {
+        padding: 5px 5px;
+    }
+
+    .container5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        font-size: .80rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    header {
+        width: 100%;
+        overflow-x: hidden; 
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .navigation ul li {
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .container2 {
+        width: 110%;
+        height: 300px;
+    }
+
+    .banner2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner2 p {
+        font-size: 1.25rem;
+    }
+
+    .imgcontainter {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .banner2 {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imgcontainer2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 img {
+        width: 80%;
+    }
+
+    figcaption {
+        font-size: .75rem;
+    }
+
+    .container4 ul li {
+        padding: 5px 5px;
+    }
+
+    .container5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        font-size: .80rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 95%;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .navigation ul li {
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner2 p {
+        font-size: 1.25rem;
+    }
+
+    .imgcontainter {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .banner2 {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imgcontainer2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 img {
+        width: 80%;
+    }
+
+    figcaption {
+        font-size: .75rem;
+    }
+
+    .container4 ul li {
+        padding: 5px 5px;
+    }
+
+    .container5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        font-size: .80rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    header {
+        width: 93%;
+    }
+
+    .container2 {
+       width: 100%;
+       height: 500px;
+    }
+
+    .banner2 {
+        width: 89.5%;
+    }
+
+    .imgcontainter {
+        width: 82%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 {
+        width: 92%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .imgcontainer2 img {
+        width: 88%;
+    }
+
+    .quote3 {
+        width: 110%;
+    }
+
+    footer {
+        width: 88%;
+    }
+
+    .navigation2 ul li {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    header {
+        width: 93%;
+    }
+
+    .container2 {
+       width: 100%;
+       height: 500px;
+    }
+
+    .banner2 {
+        width: 89.5%;
+    }
+
+    .imgcontainter {
+        width: 82%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 {
+        width: 92%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .imgcontainer2 img {
+        width: 88%;
+    }
+
+    .quote3 {
+        width: 110%;
+    }
+
+    footer {
+        width: 88%;
+    }
+
+    .navigation2 ul li {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    header {
+        width: 93%;
+    }
+
+    .container2 {
+       width: 100%;
+       height: 500px;
+    }
+
+    .banner2 {
+        width: 85%;
+    }
+
+    .imgcontainter {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .imgcontainer2 img {
+        width: 88%;
+    }
+
+    .quote3 {
+        width: 110%;
+    }
+
+    footer {
+        width: 88%;
+        font-size: .8rem;
+    }
+
+    .navigation2 ul li {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    header {
+        width: 93%;
+    }
+
+    .container2 {
+       width: 110%;
+       height: 250px;
+    }
+
+    .banner2 {
+        width: 85%;
+    }
+
+    .imgcontainter {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgcontainer2 {
+        width: 105%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    figcaption {
+        font-size: 0.65rem;
+    }
+
+    .imgcontainer2 img {
+        width: 74%;
+    }
+
+    .quote3 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    footer {
+        width: 85%;
+        font-size: .8rem;
+        justify-content: center;
+    }
+
+    .navigation2 ul li {
+        text-align: center;
+    }
+}
